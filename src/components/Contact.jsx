@@ -14,13 +14,43 @@ const Contact = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', form);
-    setSuccess(true);
-    setForm({ name: '', email: '', subject: '', message: '' });
 
-    setTimeout(() => setSuccess(false), 3000);
+    const getISTDateTime = () => {
+      const date = new Date();
+      return date.toLocaleString("en-IN", {
+        timeZone: "Asia/Kolkata",
+        hour12: true,
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        day: "2-digit",
+        month: "short",
+        year: "numeric",
+      });
+    };
+
+    const payload = {
+      ...form,
+      message: `${form.message}\n\nSubject: ${form.subject}\nTime: ${getISTDateTime()}`,
+    };
+
+    const res = await fetch("https://formspree.io/f/mnnzjeny", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+
+    if (res.ok) {
+      setSuccess(true);
+      setForm({ name: '', email: '', subject: '', message: '' });
+      setTimeout(() => setSuccess(false), 3000);
+    } else {
+      alert("Something went wrong! Please try again later.");
+    }
   };
 
   return (
