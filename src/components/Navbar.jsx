@@ -38,7 +38,7 @@ const Navbar = () => {
         </a>
 
         {/* Desktop Nav */}
-        <ul className="hidden md:flex space-x-6 text-sm font-medium items-center">
+        <ul className="hidden md:flex space-x-4 lg:space-x-6 text-sm font-medium items-center">
           {navItems.map((item) => (
             <li key={item.href}>
               <a href={item.href} className="hover:text-teal-400 transition">
