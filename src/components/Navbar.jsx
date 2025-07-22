@@ -30,6 +30,7 @@ const Navbar = () => {
         {/* ✅ Logo - Always Visible */}
         <a
           href="#"
+          onClick={() => setMenuOpen(false)}
           className="flex items-center text-xl font-bold tracking-wide hover:text-teal-400 transition z-[999]"
         >
           <i className="fas fa-user-circle mr-2"></i>
