@@ -7,17 +7,17 @@ const Hero = () => {
       className="scroll-mt-20 pt-20 pb-16 bg-gray-100 dark:bg-gray-800 transition-colors duration-300"
       id="hero"
     >
-      <div className="container mx-auto px-4 md:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-10 md:gap-12 lg:gap-20 animate-fade-up relative">
+      <div className="container mx-auto px-6 md:px-8 lg:px-10 flex flex-col md:flex-row items-center gap-10 md:gap-[4.5rem] lg:gap-10 animate-fade-up relative">
         {/* Background Glow Effect */}
         <div className="absolute top-10 left-1/2 transform -translate-x-1/2 w-80 h-80 rounded-full bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500 blur-3xl opacity-20 animate-pulse z-0"></div>
 
         {/* Profile Image with Glow */}
-        <div className="md:w-1/3 mb-6 md:mb-0 flex justify-center relative z-10 mt-10 md:-mt-20">
+        <div className="md:w-1/3 flex justify-center items-center relative z-10 mt-10 md:-mt-20 min-w-[18rem]">
           <div className="absolute w-80 h-80 rounded-full bg-gradient-to-r from-teal-400 to-blue-500 blur-2xl opacity-30 animate-ping"></div>
           <img
             src="/images/profile.jpg"
             alt="Mohammad Asad"
-            className="relative rounded-full w-60 md:w-64 lg:w-72 h-auto aspect-square object-cover shadow-2xl border-4 border-teal-500 transition-transform hover:scale-105 duration-300"
+            className="relative rounded-full w-60 sm:w-64 md:w-72 xl:w-80 h-auto aspect-square object-cover shadow-2xl border-4 border-teal-500 transition-transform hover:scale-105 duration-300"
             loading="lazy"
           />
         </div>
