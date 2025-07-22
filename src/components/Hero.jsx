@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="absolute top-10 left-1/2 transform -translate-x-1/2 w-80 h-80 rounded-full bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500 blur-3xl opacity-20 animate-pulse z-0"></div>
 
         {/* Profile Image with Glow */}
-        <div className="md:w-1/3 flex justify-center items-center relative z-10 mt-10 md:-mt-20 min-w-[18rem]">
+        <div className="md:w-1/3 flex justify-center items-center relative z-10 mt-10 md:-mt-20 min-w-[14rem]">
           <div className="absolute w-80 h-80 rounded-full bg-gradient-to-r from-teal-400 to-blue-500 blur-2xl opacity-30 animate-ping"></div>
           <img
             src="/images/profile.jpg"
