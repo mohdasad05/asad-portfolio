@@ -7,7 +7,7 @@ Welcome to my React-based personal portfolio! This modern, responsive site highl
 ## 🔗 Live Demo
 
 Check out the live version of the site hosted on Vercel:  
-👉 [https://asad-portfolio.vercel.app](https://asad-portfolio.vercel.app)
+👉 [https://asad-portfolio.vercel.app](https://asadfolio.vercel.app)
 
 ---
 
