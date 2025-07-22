@@ -7,7 +7,7 @@ const Hero = () => {
       className="scroll-mt-20 pt-20 pb-16 bg-gray-100 dark:bg-gray-800 transition-colors duration-300"
       id="hero"
     >
-      <div className="container mx-auto px-6 md:px-8 lg:px-10 flex flex-col md:flex-row items-center gap-10 md:gap-[4.5rem] lg:gap-10 animate-fade-up relative">
+      <div className="container mx-auto px-6 md:px-8 lg:px-10 flex flex-col md:flex-row items-center gap-10 md:gap-[4.5rem] lg:gap-5 animate-fade-up relative">
         {/* Background Glow Effect */}
         <div className="absolute top-10 left-1/2 transform -translate-x-1/2 w-80 h-80 rounded-full bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500 blur-3xl opacity-20 animate-pulse z-0"></div>
 
