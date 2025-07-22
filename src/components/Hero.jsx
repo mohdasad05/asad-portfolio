@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter';
 const Hero = () => {
   return (
     <section
-      className="scroll-mt-20 pt-20 pb-16 bg-gray-100 dark:bg-gray-800 transition-colors duration-300"
+      className="scroll-mt-[72px] pt-[72px] pb-16 bg-gray-100 dark:bg-gray-800 transition-colors duration-300"
       id="hero"
     >
       <div className="container mx-auto px-6 md:px-8 lg:px-10 flex flex-col md:flex-row items-center gap-10 md:gap-[4.5rem] lg:gap-5 animate-fade-up relative">
