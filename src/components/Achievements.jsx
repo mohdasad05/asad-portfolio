@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFilePdf, FaStar } from 'react-icons/fa';
+import { FaFilePdf, FaStar, FaTrophy, FaMedal, FaAward } from 'react-icons/fa';
 
 const Achievements = () => {
   return (
@@ -11,10 +11,9 @@ const Achievements = () => {
 
         <div className="relative bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md border dark:border-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-teal-50 dark:hover:bg-gray-700">
           
-          {/* 🏅 Stylish Badge */}
-          <div className="absolute top-4 right-4 bg-yellow-400 text-white px-3 py-1 text-xs font-bold rounded-full shadow-md flex items-center gap-1 animate-floating">
-            <FaStar size={12} />
-            Top Performer
+          {/* 🏅 Floating Badge Icon */}
+          <div className="absolute top-4 right-4 bg-yellow-400 text-white p-2 rounded-full shadow-lg animate-floating">
+            <FaAward size={18} />
           </div>
 
           <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
