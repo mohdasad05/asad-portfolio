@@ -147,11 +147,14 @@ const Projects = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.05 }}
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover rounded"
-              />
+              <div className="overflow-hidden rounded">
+                <motion.img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-48 object-cover rounded transition-transform duration-300"
+                  whileHover={{ scale: 1.1 }}
+                />
+              </div>
               <h3 className="text-lg font-semibold mt-4 text-gray-900 dark:text-white hover:text-teal-600 transition-colors duration-200">
                 {project.title}
               </h3>
