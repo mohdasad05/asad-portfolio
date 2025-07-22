@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-gray-800 text-white shadow-md fixed w-full z-50">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-10 py-3 flex justify-between items-center gap-8">
         {/* ✅ Logo - Always Visible */}
         <a
           href="#"

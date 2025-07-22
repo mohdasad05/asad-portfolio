@@ -7,7 +7,7 @@ const Hero = () => {
       className="scroll-mt-20 pt-20 pb-16 bg-gray-100 dark:bg-gray-800 transition-colors duration-300"
       id="hero"
     >
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center animate-fade-up relative">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-10 md:gap-12 lg:gap-20 animate-fade-up relative">
         {/* Background Glow Effect */}
         <div className="absolute top-10 left-1/2 transform -translate-x-1/2 w-80 h-80 rounded-full bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500 blur-3xl opacity-20 animate-pulse z-0"></div>
 
@@ -17,7 +17,7 @@ const Hero = () => {
           <img
             src="/images/profile.jpg"
             alt="Mohammad Asad"
-            className="relative rounded-full w-72 h-72 object-cover shadow-2xl border-4 border-teal-500 transition-transform hover:scale-105 duration-300"
+            className="relative rounded-full w-60 md:w-64 lg:w-72 h-auto aspect-square object-cover shadow-2xl border-4 border-teal-500 transition-transform hover:scale-105 duration-300"
             loading="lazy"
           />
         </div>
@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="md:w-2/3 text-center md:text-left z-10">
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">
             <span className="block">Hi, I'm</span>
-            <span className="inline-flex items-center gap-2">
+            <span className="inline-flex items-center justify-center md:justify-start gap-2 whitespace-nowrap">
               Mohammad Asad
               <span
                 className="inline-block origin-bottom-left text-yellow-400 text-3xl sm:text-4xl md:text-4xl animate-wave"
