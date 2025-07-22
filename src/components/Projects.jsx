@@ -147,14 +147,12 @@ const Projects = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.05 }}
             >
-              <div className="overflow-hidden rounded">
-                <motion.img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-48 object-cover rounded transition-transform duration-300"
-                  whileHover={{ scale: 1.1 }}
-                />
-              </div>
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-48 object-cover rounded transition-transform duration-300 ease-in-out hover:scale-105"
+                loading="lazy"
+              />
               <h3 className="text-lg font-semibold mt-4 text-gray-900 dark:text-white hover:text-teal-600 transition-colors duration-200">
                 {project.title}
               </h3>
@@ -180,13 +178,16 @@ const Projects = () => {
               >
                 &times;
               </button>
-              <img
-                src={selectedProject.image}
-                alt={selectedProject.title}
-                className="w-full h-64 object-cover rounded mb-4 cursor-zoom-in"
-                onClick={() => window.open(selectedProject.image, '_blank')}
-              />
-              <h3 className="text-2xl font-bold mb-2 dark:text-white">
+              <div className="overflow-hidden rounded mb-4">
+                <motion.img
+                  src={selectedProject.image}
+                  alt={selectedProject.title}
+                  className="w-full h-64 object-cover rounded cursor-zoom-in transition-transform duration-300"
+                  whileHover={{ scale: 1.1 }}
+                  onClick={() => window.open(selectedProject.image, '_blank')}
+                />
+              </div>
+              <h3 className="text-2xl font-bold mb-2 dark:text-white hover:text-teal-600 transition-colors duration-200">
                 {selectedProject.title}
               </h3>
               <p className="text-gray-700 dark:text-gray-300 mb-4 whitespace-pre-line">
@@ -198,7 +199,7 @@ const Projects = () => {
                     href={selectedProject.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white px-4 py-2 rounded transition"
+                    className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white px-4 py-2 rounded transition duration-200 ease-in-out"
                   >
                     <ExternalLink size={18} /> View Live
                   </a>
@@ -208,7 +209,7 @@ const Projects = () => {
                     href={selectedProject.code}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white px-4 py-2 rounded transition"
+                    className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white px-4 py-2 rounded transition duration-200 ease-in-out"
                   >
                     <Github size={18} /> View Code
                   </a>

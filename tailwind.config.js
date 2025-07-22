@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       transitionProperty: {
-        'spacing': 'margin, padding',
+        spacing: 'margin, padding',
       },
       keyframes: {
         'fade-up': {
@@ -27,13 +27,13 @@ export default {
         },
         floating: {
           '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-5px)' },
+          '50%': { transform: 'translateY(-6px)' }, // <- slightly smoother float
         },
       },
       animation: {
         'fade-up': 'fade-up 0.8s ease-out both',
         wave: 'wave 2s infinite',
-        floating: 'floating 3s ease-in-out infinite',
+        floating: 'floating 2s ease-in-out infinite', // <- duration adjusted to match smoothness
       },
     },
   },

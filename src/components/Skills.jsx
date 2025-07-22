@@ -1,6 +1,7 @@
 // src/components/Skills.jsx
 import React from 'react';
 import { BadgeCheck } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const Skills = () => {
   const skills = [
@@ -39,10 +40,15 @@ const Skills = () => {
               </h3>
               <ul className="space-y-2">
                 {skill.items.map((item, idx) => (
-                  <li key={idx} className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
+                  <motion.li
+                    key={idx}
+                    className="flex items-center gap-2 text-gray-700 dark:text-gray-300 cursor-default"
+                    whileHover={{ x: 8 }}
+                    transition={{ type: 'spring', stiffness: 300 }}
+                  >
                     <BadgeCheck size={18} className="text-teal-500" />
                     {item}
-                  </li>
+                  </motion.li>
                 ))}
               </ul>
             </div>

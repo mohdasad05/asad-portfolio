@@ -54,11 +54,11 @@ const Hero = () => {
             />
           </h2>
 
-          <h3 className="text-lg font-medium mb-2 text-gray-800 dark:text-gray-200">
+          <h3 className="font-semibold mb-2 text-gray-800 dark:text-gray-200">
             B.Tech in Computer Science (AI & ML)
           </h3>
 
-          <p className="text-lg text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
+          <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
             Passionate developer with 1+ years of hands-on experience in building robust applications.
             Currently working at WeSalvator, focusing on Python/Django development while exploring AI/ML
             and Data Science.
