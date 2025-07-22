@@ -17,7 +17,7 @@ const Hero = () => {
           <img
             src="/images/profile.jpg"
             alt="Mohammad Asad"
-            className="relative rounded-full w-60 sm:w-64 md:w-72 xl:w-80 h-auto aspect-square object-cover shadow-2xl border-4 border-teal-500 transition-transform hover:scale-105 duration-300"
+            className="relative rounded-full w-60 sm:w-64 md:w-64 xl:w-72 h-auto aspect-square object-cover shadow-2xl border-4 border-teal-500 transition-transform hover:scale-105 duration-300"
             loading="lazy"
           />
         </div>
