@@ -11,7 +11,7 @@ const Skills = () => {
     },
     {
       category: 'Web Development',
-      items: ['Django', 'DRF', 'FastAPI', 'HTML', 'CSS'],
+      items: ['Django', 'DRF', 'FastAPI', 'HTML', 'CSS', 'LeafletJS'],
     },
     {
       category: 'Database & API',
@@ -19,11 +19,11 @@ const Skills = () => {
     },
     {
       category: 'Data Science & ML',
-      items: ['Data Science', 'Machine Learning', 'Jupyter Notebook', 'Streamlit', 'Tableau'],
+      items: ['Data Science', 'Machine Learning', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn', 'TensorFlow', 'Jupyter Notebook', 'Streamlit', 'Tableau'],
     },
     {
       category: 'Tools & Technologies',
-      items: ['Docker', 'Redis', 'WebSockets'],
+      items: ['Docker', 'Redis', 'WebSockets', 'Django Channels', '.env Configs'],
     },
     {
       category: 'Code Quality & Analysis',
