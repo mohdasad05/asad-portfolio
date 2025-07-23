@@ -99,6 +99,12 @@ const Hero = () => {
             >
               <i className="far fa-envelope"></i>
             </a>
+            <a
+              href="https://www.youtube.com/@mohdasad_05"
+              className="text-2xl text-gray-700 dark:text-gray-300 hover:text-teal-500 transition-transform transform hover:scale-125 duration-300"
+            >
+              <i className="fab fa-youtube"></i>
+            </a>
           </div>
 
           {/* Location */}

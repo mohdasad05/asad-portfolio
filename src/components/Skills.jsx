@@ -11,16 +11,35 @@ const Skills = () => {
     },
     {
       category: 'Web Development',
-      items: ['Django', 'Django REST Framework', 'HTML', 'CSS', 'MySQL', 'PostgreSQL'],
+      items: ['Django', 'DRF', 'FastAPI', 'HTML', 'CSS'],
+    },
+    {
+      category: 'Database & API',
+      items: ['MySQL', 'PostgreSQL', 'DBMS', 'Postman'],
     },
     {
       category: 'Data Science & ML',
-      items: ['Machine Learning', 'Data Science', 'Jupyter Notebook', 'Streamlit'],
+      items: ['Data Science', 'Machine Learning', 'Jupyter Notebook', 'Streamlit', 'Tableau'],
     },
     {
       category: 'Tools & Technologies',
-      items: ['DBMS', 'Tableau', 'Git', 'Postman'],
+      items: ['Docker', 'Redis', 'WebSockets'],
     },
+    {
+      category: 'Code Quality & Analysis',
+      items: ['SonarQube', 'Static Code Analysis', 'Clean Code Practices']
+    },
+    {
+      category: 'Version Control & Collaboration',
+      items: ['Git', 'GitHub', 'Gitea'],
+    },
+    {
+      category: 'Authentication & Architecture',
+      items: ['JWT Authentication', 'Microservices'],
+    },
+    { category: 'Testing & Deployment',
+      items: ['pytest', 'Postman']
+    }
   ];
 
   return (
@@ -29,7 +48,7 @@ const Skills = () => {
         <h2 className="text-4xl font-extrabold mb-10 text-center text-gray-900 dark:text-white hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-300">
           Skills & Expertise
         </h2>
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-8">
           {skills.map((skill, index) => (
             <div
               key={index}

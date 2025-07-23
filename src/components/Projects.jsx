@@ -14,6 +14,21 @@ const projectData = [
     code: '',
   },
   {
+    title: 'Buyer Seller - E-commerce Platform',
+    category: 'Python',
+    description: `A comprehensive e-commerce platform built using Python and Django. It enables users to buy and sell products seamlessly, featuring user authentication, product listings, shopping cart functionality, and secure payment processing.`,
+    image: '/images/projects/buyer-seller.jpg',
+    code: 'https://github.com/mohdasad05/Buyer-Seller-Ecommerce',
+  },
+  {
+    title: 'Warp and Weft Creations',
+    category: 'Web',
+    description: `A personal portfolio website showcasing my projects and skills. Built with HTML, CSS, and JavaScript, it features a modern design, responsive layout, and smooth animations to enhance user experience.`,
+    image: '/images/projects/warp-and-weft.jpg',
+    live: 'https://mohdasad05.github.io/warp-and-weft-creations',
+    code: 'https://github.com/mohdasad05/warp-and-weft-creations',
+  },
+  {
     title: 'Slack Task Bot',
     category: 'Python',
     description: `A Slack bot that automates task management by sending hourly reminders to team members. Built using Python and Slack API, it helps improve productivity by ensuring tasks are completed on time. The bot can also track progress, send notifications, and integrate with project management tools.`,

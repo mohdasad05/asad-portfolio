@@ -12,13 +12,23 @@ const About = () => {
           About Me
         </h2>
         <p className="text-gray-700 dark:text-gray-300 max-w-3xl mx-auto text-center text-lg leading-relaxed hover:scale-[1.01] transition-transform duration-300">
-          I’m a Computer Science graduate specializing in Artificial Intelligence & Machine Learning, with hands-on experience in building full-stack web applications using Python and Django. Currently working at WeSalvator as a Python/Django Developer Intern, I have actively contributed to transforming monolithic systems into scalable microservices, integrating technologies like FastAPI, PostgreSQL, JWT Authentication, WebSockets, Redis, and Docker.
-
-          My passion lies in solving real-world problems through technology—whether it's developing real-time tracking features, architecting secure API services, or deploying ML models. I believe in writing clean, modular code and constantly strive to upskill in AI/ML, backend engineering, and modern DevOps practices.
-
-          I'm also active on <a href="https://github.com/mohdasad05" target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-400 underline">GitHub</a> and <a href="https://www.linkedin.com/in/mohammad-asad-631647277/" target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-400 underline">LinkedIn</a>, where I showcase my projects and connect with fellow developers and mentors.
+          I'm a Computer Science graduate with a specialization in Artificial Intelligence & Machine Learning, currently working as a Python/Django Developer Intern at <strong>WeSalvator</strong>. I’ve gained hands-on experience building robust, full-stack web applications and transforming monolithic systems into scalable microservices using modern technologies.
+          <br /><br />
+          My skill set spans backend development with Django and FastAPI, API security with JWT, asynchronous processing with Redis and WebSockets, and containerization with Docker. I write modular, clean code, and I’m proficient in testing using <strong>pytest</strong>, ensuring code quality with <strong>SonarQube</strong>, and collaborating via Git, GitHub, and <strong>Gitea</strong>.
+          <br /><br />
+          I'm passionate about solving real-world problems through technology—whether it's building real-time tracking systems, implementing secure and scalable APIs, or exploring AI and ML applications. I enjoy taking ownership of features end-to-end and continuously learning to improve my craft.
+          <br /><br />
+          I'm also active on
+          {' '}
+          <a href="https://github.com/mohdasad05" target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-400 underline">GitHub</a>,
+          {' '}
+          <a href="https://www.linkedin.com/in/mohammad-asad-631647277/" target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-400 underline">LinkedIn</a>,
+          {' '}
+          and
+          {' '}
+          <a href="https://www.youtube.com/@mohdasad_05" target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-400 underline">YouTube</a>,
+          where I share my projects, open-source work, and connect with the developer community.
         </p>
-
       </div>
     </section>
   );
