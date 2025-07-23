@@ -35,7 +35,7 @@ const About = () => {
               GitHub
             </a>,{' '}
             <a
-              href="https://linkedin.com/in/mohammad-asad-631647277/"
+              href="https://linkedin.com/in/mohammad-asad-631647277"
               target="_blank"
               rel="noopener noreferrer"
               className="text-teal-600 dark:text-teal-400 underline"
