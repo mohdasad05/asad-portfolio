@@ -32,7 +32,7 @@ const Footer = () => {
           <i className="far fa-envelope"></i>
         </a>
         <a
-          href="https://www.youtube.com/@mohdasad_05"
+          href="https://youtube.com/@mohdasad_05"
           className="hover:text-teal-400 transform transition-transform hover:scale-125 duration-300"
         >
           <i className="fab fa-youtube"></i>

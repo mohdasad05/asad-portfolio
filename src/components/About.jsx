@@ -22,11 +22,11 @@ const About = () => {
           {' '}
           <a href="https://github.com/mohdasad05" target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-400 underline">GitHub</a>,
           {' '}
-          <a href="https://www.linkedin.com/in/mohammad-asad-631647277/" target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-400 underline">LinkedIn</a>,
+          <a href="https://linkedin.com/in/mohammad-asad-631647277/" target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-400 underline">LinkedIn</a>,
           {' '}
           and
           {' '}
-          <a href="https://www.youtube.com/@mohdasad_05" target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-400 underline">YouTube</a>,
+          <a href="https://youtube.com/@mohdasad_05" target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-400 underline">YouTube</a>,
           where I share my projects, open-source work, and connect with the developer community.
         </p>
       </div>
