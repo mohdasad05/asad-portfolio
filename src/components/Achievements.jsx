@@ -9,7 +9,7 @@ const Achievements = () => {
           Achievements
         </h2>
 
-        <div className="relative bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md border dark:border-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-teal-50 dark:hover:bg-gray-700">
+        <div className="relative bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md border dark:border-gray-700 transition-all duration-300 transform hover:scale-[1.01] hover:shadow-xl hover:bg-teal-50 dark:hover:bg-gray-700">
           
           {/* 🏅 Floating Badge Icon */}
           <div className="absolute top-4 right-4 bg-yellow-400 text-white p-2 rounded-full shadow-lg animate-floating">
