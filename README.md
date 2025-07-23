@@ -20,7 +20,7 @@ Check out the live version of the site hosted on Vercel:
 - 🧠 Project filters (Web, AI/ML, Python)
 - 🌙 Dark mode toggle
 - 📍 Location and contact info
-- 🌐 GitHub & LinkedIn integration
+- 🌐 GitHub, LinkedIn & YouTube integration
 
 ---
 
@@ -57,7 +57,8 @@ Check out the live version of the site hosted on Vercel:
 - 📍 Location: Lucknow, Uttar Pradesh, India  
 - 📧 Email: [mohdasad.9506@gmail.com](mailto:mohdasad.9506@gmail.com)  
 - 💼 LinkedIn: [linkedin.com/in/mohammad-asad-631647277](https://linkedin.com/in/mohammad-asad-631647277)  
-- 💻 GitHub: [github.com/mohdasad05](https://github.com/mohdasad05)
+- 💻 GitHub: [github.com/mohdasad05](https://github.com/mohdasad05)  
+- ▶️ YouTube: [youtube.com/@mohdasad_05](https://www.youtube.com/@mohdasad_05)
 
 ---
 
