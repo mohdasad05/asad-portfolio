@@ -41,7 +41,7 @@ const Achievements = () => {
           </p>
 
           <a
-            href="/images/certificates/lor-codeclause.pdf"
+            href="/achievements/lor-codeclause.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center text-teal-600 dark:text-teal-400 font-semibold hover:underline"

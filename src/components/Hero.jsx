@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="md:w-1/3 flex justify-center items-center relative z-10 mt-10 md:-mt-20 min-w-[14rem]">
           <div className="absolute w-80 h-80 rounded-full bg-gradient-to-r from-teal-400 to-blue-500 blur-2xl opacity-30 animate-ping"></div>
           <img
-            src="/images/profile.jpg"
+            src="/profile.jpg"
             alt="Mohammad Asad"
             className="relative rounded-full w-60 sm:w-64 md:w-64 xl:w-72 h-auto aspect-square object-cover shadow-2xl border-4 border-teal-500 transition-transform hover:scale-105 duration-300"
             loading="lazy"

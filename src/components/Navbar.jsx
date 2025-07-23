@@ -49,7 +49,7 @@ const Navbar = () => {
           <li><DarkModeToggle /></li>
           <li>
             <a
-              href="/images/Mohammad-Asad-Resume.pdf"
+              href="/Mohammad-Asad-Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center bg-teal-500 hover:bg-teal-600 text-white px-3 py-1 rounded transition"

@@ -3,18 +3,18 @@ import React from 'react';
 import { FaFilePdf } from 'react-icons/fa';
 
 const certifications = [
-  { name: 'Tableau – Internshala Trainings', file: '/images/certificates/tableau-certificate.pdf' },
-  { name: 'Artificial Intelligence Intern – Tech-A-Intern', file: '/images/certificates/ai-intern-certificate.pdf' },
-  { name: 'Data Science – Internshala Trainings', file: '/images/certificates/data-science-certificate.pdf' },
-  { name: 'Machine Learning Intern – BharatIntern', file: '/images/certificates/ml-intern-bharatintern.pdf' },
-  { name: 'Machine Learning – Internshala Trainings', file: '/images/certificates/ml-internshala.pdf' },
-  { name: 'Python Programming Intern - CodSoft', file: '/images/certificates/python-codsoft.pdf' },
-  { name: '2 Days Pre Bootcamp Workshop - GUVI', file: '/images/certificates/guvi-bootcamp.pdf' },
-  { name: 'Enterprise Data Science – IBM', file: '/images/certificates/ibm-data-science.pdf' },
-  { name: 'Web Development Intern – CodeClause', file: '/images/certificates/web-dev-codeclause.pdf' },
-  { name: 'Web Development - Internshala Trainings', file: '/images/certificates/web-dev-internshala.pdf' },
-  { name: 'ChatGPT Guided Path - Coding Ninjas', file: '/images/certificates/chatgpt-coding-ninjas.pdf' },
-  { name: 'Data Analytics Internship - Forage', file: '/images/certificates/data-analytics-forage.pdf' },
+  { name: 'Tableau – Internshala Trainings', file: '/certificates/tableau-certificate.pdf' },
+  { name: 'Artificial Intelligence Intern – Tech-A-Intern', file: '/certificates/ai-intern-certificate.pdf' },
+  { name: 'Data Science – Internshala Trainings', file: '/certificates/data-science-certificate.pdf' },
+  { name: 'Machine Learning Intern – BharatIntern', file: '/certificates/ml-intern-bharatintern.pdf' },
+  { name: 'Machine Learning – Internshala Trainings', file: '/certificates/ml-internshala.pdf' },
+  { name: 'Python Programming Intern - CodSoft', file: '/certificates/python-codsoft.pdf' },
+  { name: '2 Days Pre Bootcamp Workshop - GUVI', file: '/certificates/guvi-bootcamp.pdf' },
+  { name: 'Enterprise Data Science – IBM', file: '/certificates/ibm-data-science.pdf' },
+  { name: 'Web Development Intern – CodeClause', file: '/certificates/web-dev-codeclause.pdf' },
+  { name: 'Web Development - Internshala Trainings', file: '/certificates/web-dev-internshala.pdf' },
+  { name: 'ChatGPT Guided Path - Coding Ninjas', file: '/certificates/chatgpt-coding-ninjas.pdf' },
+  { name: 'Data Analytics Internship - Forage', file: '/certificates/data-analytics-forage.pdf' },
 ];
 
 const Certifications = () => {
