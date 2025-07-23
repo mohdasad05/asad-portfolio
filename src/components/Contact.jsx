@@ -62,11 +62,10 @@ const Contact = () => {
 
         {success && (
           <p className="text-green-600 dark:text-green-400 text-center mb-4 animate-fade-up">
-            ✅ Message sent successfully!
+            ✅ Your message has been sent successfully. Thanks for reaching out!
           </p>
         )}
 
-        {/* Hoverable Card Wrapper */}
         <div className="max-w-xl mx-auto p-6 bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-lg transform hover:scale-101 hover:bg-teal-100 dark:hover:bg-gray-700 transition-all duration-300">
           <form onSubmit={handleSubmit} className="space-y-4 text-left">
             <input
@@ -112,6 +111,44 @@ const Contact = () => {
               Send Message
             </button>
           </form>
+
+          {/* Location */}
+          <div className="mt-4 text-lg text-gray-700 dark:text-gray-300 flex items-center justify-center">
+            <i className="fas fa-map-marker-alt mr-2 text-teal-500 text-xl"></i>
+            Lucknow, Uttar Pradesh, India
+          </div>
+
+          {/* Social Links */}
+          <div className="flex items-center justify-center space-x-6 mt-2">
+            <a
+              href="https://github.com/mohdasad05"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl text-gray-700 dark:text-gray-300 hover:text-teal-500 transition-transform transform hover:scale-125 duration-300"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/mohammad-asad-631647277"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl text-gray-700 dark:text-gray-300 hover:text-teal-500 transition-transform transform hover:scale-125 duration-300"
+            >
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="mailto:mohdasad.9506@gmail.com"
+              className="text-2xl text-gray-700 dark:text-gray-300 hover:text-teal-500 transition-transform transform hover:scale-125 duration-300"
+            >
+              <i className="far fa-envelope"></i>
+            </a>
+            <a
+              href="https://youtube.com/@mohdasad_05"
+              className="text-2xl text-gray-700 dark:text-gray-300 hover:text-teal-500 transition-transform transform hover:scale-125 duration-300"
+            >
+              <i className="fab fa-youtube"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
