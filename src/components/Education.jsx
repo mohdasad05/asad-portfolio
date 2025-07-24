@@ -1,5 +1,6 @@
 // src/components/Education.jsx
 import React from 'react';
+import { GraduationCap } from 'lucide-react';
 
 const Education = () => {
   const education = [
@@ -38,11 +39,14 @@ const Education = () => {
               key={index}
               className="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 hover:scale-[1.01] border border-transparent hover:border-teal-500"
             >
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-1">
-                {edu.institution}
-              </h3>
-              <h4 className="text-md text-teal-600 dark:text-teal-400 mb-2">{edu.degree}</h4>
-              <div className="text-sm text-gray-600 dark:text-gray-400 flex justify-between">
+              <div className="flex items-center gap-3 mb-2">
+                <GraduationCap size={24} className="text-gray-800 dark:text-white" />
+                <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">
+                  {edu.institution}
+                </h3>
+              </div>
+              <h4 className="text-lg text-teal-600 dark:text-teal-400">{edu.degree}</h4>
+              <div className="text-lg text-gray-600 dark:text-gray-400 flex justify-between">
                 <span>{edu.duration}</span>
                 <span>{edu.gpa}</span>
               </div>
