@@ -32,8 +32,11 @@ const Contact = () => {
     };
 
     const payload = {
-      ...form,
-      message: `${form.message}\n\nSubject: ${form.subject}\nTime: ${getISTDateTime()}`,
+      subject: form.subject,
+      message: `Name: ${form.name}
+    Email: ${form.email}
+
+    ${form.message}`
     };
 
     const res = await fetch("https://formspree.io/f/mnnzjeny", {
