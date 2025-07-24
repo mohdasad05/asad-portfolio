@@ -116,7 +116,7 @@ const Contact = () => {
           </form>
 
           {/* Location */}
-          <div className="mt-4 text-lg text-gray-700 dark:text-gray-300 flex items-center justify-center">
+          <div className="mt-4 text-base text-gray-700 dark:text-gray-300 flex items-center justify-center">
             <i className="fas fa-map-marker-alt mr-2 text-teal-500 text-xl"></i>
             Lucknow, Uttar Pradesh, India
           </div>
@@ -127,7 +127,7 @@ const Contact = () => {
               href="https://github.com/mohdasad05"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl text-gray-700 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 transition-transform transform hover:scale-125 duration-300"
+              className="text-xl text-gray-700 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 transition-transform transform hover:scale-125 duration-300"
             >
               <i className="fab fa-github"></i>
             </a>
@@ -135,19 +135,19 @@ const Contact = () => {
               href="https://linkedin.com/in/mohammad-asad-631647277"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl text-gray-700 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 transition-transform transform hover:scale-125 duration-300"
+              className="text-xl text-gray-700 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 transition-transform transform hover:scale-125 duration-300"
             >
               <i className="fab fa-linkedin-in"></i>
             </a>
             <a
               href="mailto:mohdasad.9506@gmail.com"
-              className="text-2xl text-gray-700 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 transition-transform transform hover:scale-125 duration-300"
+              className="text-xl text-gray-700 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 transition-transform transform hover:scale-125 duration-300"
             >
               <i className="far fa-envelope"></i>
             </a>
             <a
               href="https://youtube.com/@mohdasad_05"
-              className="text-2xl text-gray-700 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 transition-transform transform hover:scale-125 duration-300"
+              className="text-xl text-gray-700 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 transition-transform transform hover:scale-125 duration-300"
             >
               <i className="fab fa-youtube"></i>
             </a>

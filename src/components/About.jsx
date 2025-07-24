@@ -11,7 +11,7 @@ const About = () => {
         <h2 className="text-4xl font-extrabold mb-10 text-center text-gray-900 dark:text-white hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-300">
           About Me
         </h2>
-        <div className="text-gray-700 dark:text-gray-300 max-w-3xl mx-auto text-center text-lg leading-relaxed hover:scale-[1.01] transition-transform duration-300 space-y-6">
+        <div className="text-gray-700 dark:text-gray-300 max-w-3xl mx-auto text-center text-[17px] leading-relaxed hover:scale-[1.01] transition-transform duration-300 space-y-6">
           <p>
             I'm a Computer Science graduate specializing in Artificial Intelligence & Machine Learning, currently working as a Python/Django Developer Intern at <strong>WeSalvator</strong>. I’ve worked on building real-time, scalable, and secure backend systems using modern development practices.
           </p>
