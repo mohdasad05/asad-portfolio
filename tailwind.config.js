@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        pacifico: ['Pacifico', 'cursive'],
+      },
       transitionProperty: {
         spacing: 'margin, padding',
       },
@@ -27,13 +30,13 @@ export default {
         },
         floating: {
           '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-6px)' }, // <- slightly smoother float
+          '50%': { transform: 'translateY(-6px)' },
         },
       },
       animation: {
         'fade-up': 'fade-up 0.8s ease-out both',
         wave: 'wave 2s infinite',
-        floating: 'floating 2s ease-in-out infinite', // <- duration adjusted to match smoothness
+        floating: 'floating 2s ease-in-out infinite',
       },
     },
   },
@@ -41,4 +44,4 @@ export default {
   corePlugins: {
     preflight: true,
   },
-}
+};

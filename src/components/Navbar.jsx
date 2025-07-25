@@ -27,14 +27,14 @@ const Navbar = () => {
   return (
     <header className="bg-gray-800 text-white shadow-md fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-10 py-3 flex justify-between items-center gap-8">
-        {/* ✅ Logo - Always Visible */}
+        {/* Logo - Always Visible */}
         <a
           href="#"
           onClick={() => setMenuOpen(false)}
-          className="flex items-center text-xl font-bold tracking-wide hover:text-teal-400 transition z-[999]"
+          className="flex items-center text-xl font-pacifico tracking-wide hover:text-teal-400 transition z-[999]"
         >
           <i className="fas fa-user-circle mr-2"></i>
-          Portfolio
+          Mohammad Asad
         </a>
 
         {/* Desktop Nav */}
