@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import DarkModeToggle from './DarkModeToggle';
+import LogoWithTagStyle from './Logo';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,15 +28,9 @@ const Navbar = () => {
   return (
     <header className="bg-gray-800 text-white shadow-md fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-10 py-3 flex justify-between items-center gap-8">
+      
         {/* Logo - Always Visible */}
-        <a
-          href="#"
-          onClick={() => setMenuOpen(false)}
-          className="flex items-center text-xl font-pacifico tracking-wide hover:text-teal-400 transition z-[999]"
-        >
-          <i className="fas fa-user-circle mr-2"></i>
-          Mohammad Asad
-        </a>
+        <LogoWithTagStyle onClick={() => setMenuOpen(false)} />
 
         {/* Desktop Nav */}
         <ul className="hidden md:flex space-x-4 lg:space-x-6 text-sm font-medium items-center">
