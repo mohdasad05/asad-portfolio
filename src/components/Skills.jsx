@@ -11,7 +11,7 @@ const Skills = () => {
     },
     {
       category: 'Web Development',
-      items: ['Django', 'DRF', 'FastAPI', 'HTML', 'CSS', 'LeafletJS'],
+      items: ['Django', 'DRF', 'FastAPI', 'HTML', 'CSS', 'LeafletJS', 'ReactJS'],
     },
     {
       category: 'Database & API',
@@ -23,7 +23,7 @@ const Skills = () => {
     },
     {
       category: 'Tools & Technologies',
-      items: ['Docker', 'Redis', 'WebSockets', 'Django Channels', '.env Configs'],
+      items: ['Docker', 'Redis', 'WebSockets', 'Django Channels', '.env Configs', 'Framer Motion', 'Tailwind CSS'],
     },
     {
       category: 'Code Quality & Analysis',

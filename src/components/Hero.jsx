@@ -42,7 +42,10 @@ const Hero = () => {
             <Typewriter
               words={[
                 'Python/Django Developer 👨‍💻',
+                'FastAPI & Microservices Specialist 🚀',
+                'Real-Time Systems Engineer 🔄',
                 'AI/ML Enthusiast 🤖',
+                'PostgreSQL & Redis Expert 🧠',
                 'Open Source Contributor 🌐'
               ]}
               loop={0}
@@ -122,6 +125,15 @@ const Hero = () => {
               <i className="fas fa-briefcase mr-2"></i>
               View My Work
             </a>
+          </div>
+
+          {/* Visitor Counter Badge */}
+          <div className="mt-6 text-center md:text-left">
+            <img
+              src="https://api.visitorbadge.io/api/visitors?path=mohdasad05/asadfolio&label=Total Visitors&labelColor=52525b&countColor=22d3ee&style=flat-square"
+              alt="Visitor Badge"
+              className="w-auto h-8 inline"
+            />
           </div>
         </div>
       </div>
