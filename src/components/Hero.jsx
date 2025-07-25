@@ -132,7 +132,7 @@ const Hero = () => {
             <img
               src="https://api.visitorbadge.io/api/visitors?path=mohdasad05/asadfolio&label=Total Visitors&labelColor=52525b&countColor=22d3ee&style=flat-square"
               alt="Visitor Badge"
-              className="w-auto h-8 inline"
+              className="w-auto h-8 inline-block transform transition duration-300 hover:scale-105 hover:shadow-md cursor-default"
             />
           </div>
         </div>

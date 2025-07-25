@@ -8,8 +8,11 @@ const About = () => {
       id="about"
     >
       <div className="container mx-auto px-4 animate-fade-up">
-        <h2 className="text-4xl font-extrabold mb-10 text-center text-gray-900 dark:text-white hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-300">
-          About Me
+        <h2 className="text-4xl font-extrabold mb-10 text-center text-gray-900 dark:text-white group duration-300">
+          <span className="relative inline-block">
+            About Me
+            <span className="absolute left-0 -bottom-2 h-1 w-0 bg-teal-500 dark:bg-teal-400 transition-all duration-300 group-hover:w-full"></span>
+          </span>
         </h2>
         <div className="text-gray-700 dark:text-gray-300 max-w-3xl mx-auto text-center text-[17px] leading-relaxed hover:scale-[1.01] transition-transform duration-300 space-y-6">
           <p>

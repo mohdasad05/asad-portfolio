@@ -5,8 +5,11 @@ const Achievements = () => {
   return (
     <section className="scroll-mt-20 py-12 bg-white dark:bg-gray-900" id="achievements">
       <div className="max-w-5xl mx-auto px-4">
-        <h2 className="text-4xl font-extrabold mb-10 text-center text-gray-900 dark:text-white hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-300">
-          Achievements
+        <h2 className="text-4xl font-extrabold mb-10 text-center text-gray-900 dark:text-white group duration-300">
+          <span className="relative inline-block">
+            Achievements
+            <span className="absolute left-0 -bottom-2 h-1 w-0 bg-teal-500 dark:bg-teal-400 transition-all duration-300 group-hover:w-full"></span>
+          </span>           
         </h2>
 
         <div className="relative bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md border dark:border-gray-700 transition-all duration-300 transform hover:scale-[1.01] hover:shadow-xl hover:bg-teal-50 dark:hover:bg-gray-700">

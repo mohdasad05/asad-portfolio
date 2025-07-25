@@ -4,7 +4,7 @@ const LogoWithTagStyle = ({ onClick }) => (
   <a
     href="#"
     onClick={onClick}
-    className="flex items-center text-xl font-pacifico tracking-wide text-white hover:text-teal-400 transition z-[999]"
+    className="flex items-center text-xl font-pacifico tracking-wide text-white hover:text-teal-400 transition z-[999] whitespace-nowrap"
   >
     &lt;<span className="mx-1">Mohammad Asad</span>/&gt;
   </a>
