@@ -38,7 +38,7 @@ const Hero = () => {
             </span>
           </h1>
 
-          <h2 className="text-2xl font-semibold text-teal-600 dark:text-teal-300 mb-4">
+          <h2 className="text-2xl font-semibold text-fuchsia-500 dark:text-fuchsia-400 mb-4">
             <Typewriter
               words={[
                 'Python/Django Developer 👨‍💻',
