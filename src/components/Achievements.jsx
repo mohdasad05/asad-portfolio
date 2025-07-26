@@ -16,7 +16,7 @@ const Achievements = () => {
           
           {/* 🏅 Floating Badge Icon */}
           <div className="absolute top-4 right-4 bg-yellow-400 text-white p-2 rounded-full shadow-lg animate-floating">
-            <FaAward size={18} />
+            <FaMedal size={22} />
           </div>
 
           <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
