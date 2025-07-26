@@ -28,7 +28,7 @@ const Row = ({ items, reverse = false, speed = 'normal' }) => {
         {list.map((item, i) => (
           <span key={i} className={pill}>
             <span className="text-xl">
-              {item.icon || <FaCode />} {/* 👈 Default icon if none provided */}
+              {item.icon || <FaCode />} {/* Default icon if none provided */}
             </span>
             {item.label}
           </span>
@@ -58,6 +58,7 @@ const Skills = () => {
     { label: 'Redis', icon: <SiRedis /> },
     { label: 'Docker', icon: <FaDocker /> },
     { label: 'JWT Authentication', icon: <SiJsonwebtokens /> },
+    { label: 'REST APIs' },
     { label: 'WebSockets' },
     { label: 'Django Channels' },
     { label: 'pytest', icon: <FaPython /> },
@@ -85,6 +86,7 @@ const Skills = () => {
     { label: 'Clean Code Practices' },
     { label: '.env Configs' },
     { label: 'Gitea' },
+    { label: 'GitHub', icon: <FaGitAlt /> },
     { label: 'Microservices' },
     { label: 'C' },
     { label: 'LeafletJS' },

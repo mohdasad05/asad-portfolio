@@ -28,7 +28,7 @@ const Experience = () => {
               className="bg-gray-100 dark:bg-gray-800 p-6 rounded-2xl shadow-lg transition-transform transform hover:scale-[1.02] hover:shadow-xl"
             >
               <div className="flex items-center gap-3 mb-3 text-teal-600 dark:text-teal-400">
-                <Briefcase size={22} />
+                <Briefcase size={22} className="shrink-0 mt-1" />
                 <h3 className="text-xl font-semibold">{exp.role}</h3>
               </div>
               <p className="text-gray-700 dark:text-gray-300 text-base">{exp.company}</p>

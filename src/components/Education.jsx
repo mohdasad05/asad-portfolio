@@ -43,7 +43,7 @@ const Education = () => {
               className="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 hover:scale-[1.01] border border-transparent hover:border-teal-500"
             >
               <div className="flex items-center gap-3 mb-2">
-                <GraduationCap size={22} className="text-gray-800 dark:text-white" />
+                <GraduationCap size={22} className="shrink-0 mt-1 text-gray-800 dark:text-white" />
                 <h3 className="text-xl font-semibold text-gray-800 dark:text-white">
                   {edu.institution}
                 </h3>

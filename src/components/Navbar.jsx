@@ -82,7 +82,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between pt-4 border-t border-gray-700">
           <DarkModeToggle />
           <a
-            href="/images/Mohammad-Asad-Resume.pdf"
+            href="/Mohammad-Asad-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center bg-teal-500 hover:bg-teal-600 text-white px-3 py-1 rounded text-sm"
