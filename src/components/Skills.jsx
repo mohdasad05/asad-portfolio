@@ -1,12 +1,12 @@
 // src/components/Skills.jsx
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   FaPython, FaReact, FaDocker, FaGitAlt, FaHtml5, FaCss3Alt, FaJsSquare, FaCode,
 } from 'react-icons/fa';
 import {
   SiDjango, SiPostgresql, SiFastapi, SiTensorflow, SiJupyter, SiTailwindcss, SiFramer, SiRedis, SiMysql, SiSonarqube, SiJsonwebtokens,
 } from 'react-icons/si';
-import { VscCode } from 'react-icons/vsc'; // VS Code icon comes from react-icons/vsc
+import { VscCode } from 'react-icons/vsc';
 
 const pill =
   'flex items-center gap-2 px-4 py-2 mr-4 rounded-full bg-white dark:bg-gray-900 shadow text-gray-800 dark:text-gray-100 text-base md:text-lg font-medium transition-all duration-300 transform hover:scale-105 hover:bg-teal-500 hover:text-white dark:hover:text-white';
@@ -21,16 +21,16 @@ const Row = ({ items, reverse = false, speed = 'normal' }) => {
         ? 'animate-marqueeFast'
         : 'animate-marquee';
 
-  const list = [...items, ...items]; // smooth loop
+  const list = [...items, ...items];
 
   return (
     <div className="relative overflow-hidden w-full group">
       <div className={`flex whitespace-nowrap ${anim} group-hover:[animation-play-state:paused]`}>
         {list.map((item, i) => (
           <span key={i} className={pill}>
-          <span className="text-xl">
-            {item.icon || <FaCode />}
-          </span>
+            <span className="text-xl">
+              {item.icon || <FaCode />}
+            </span>
             {item.label}
           </span>
         ))}
@@ -40,6 +40,15 @@ const Row = ({ items, reverse = false, speed = 'normal' }) => {
 };
 
 const Skills = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const row1 = [
     { label: 'Python', icon: <FaPython /> },
     { label: 'C' },
@@ -47,7 +56,7 @@ const Skills = () => {
     { label: 'HTML', icon: <FaHtml5 /> },
     { label: 'CSS', icon: <FaCss3Alt /> },
     { label: 'Tailwind CSS', icon: <SiTailwindcss /> },
-    { label: 'VS Code', icon: <VscCode /> }, // ✅ fixed
+    { label: 'VS Code', icon: <VscCode /> },
   ];
 
   const row2 = [
@@ -114,12 +123,29 @@ const Skills = () => {
         </h2>
 
         <div className="space-y-6">
-          <Row items={row1} reverse={false} speed="normal" />
-          <Row items={row2} reverse={true} speed="fast" />
-          <Row items={row3} reverse={false} speed="normal" />
-          <Row items={row4} reverse={true} speed="fast" />
-          <Row items={row5} reverse={false} speed="normal" />
-          <Row items={row6} reverse={true} speed="fast" />
+          {isMobile ? (
+            <>
+              <Row items={row1.slice(0, 3)} reverse={false} speed="normal" />
+              <Row items={row1.slice(3)} reverse={true} speed="fast" />
+              <Row items={row2.slice(0, 3)} reverse={false} speed="normal" />
+              <Row items={row2.slice(3)} reverse={true} speed="fast" />
+              <Row items={row3.slice(0, 3)} reverse={false} speed="normal" />
+              <Row items={row3.slice(3)} reverse={true} speed="fast" />
+              <Row items={row4.slice(0, 3)} reverse={false} speed="normal" />
+              <Row items={row4.slice(3)} reverse={true} speed="fast" />
+              <Row items={row5} reverse={false} speed="normal" />
+              <Row items={row6} reverse={true} speed="fast" />
+            </>
+          ) : (
+            <>
+              <Row items={row1} reverse={false} speed="normal" />
+              <Row items={row2} reverse={true} speed="fast" />
+              <Row items={row3} reverse={false} speed="normal" />
+              <Row items={row4} reverse={true} speed="fast" />
+              <Row items={row5} reverse={false} speed="normal" />
+              <Row items={row6} reverse={true} speed="fast" />
+            </>
+          )}
         </div>
       </div>
     </section>
