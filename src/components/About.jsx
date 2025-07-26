@@ -4,7 +4,7 @@ import React from 'react';
 const About = () => {
   return (
     <section
-      className="scroll-mt-20 py-16 bg-white dark:bg-gray-900 transition-colors duration-500"
+      className="scroll-mt-20 py-12 bg-white dark:bg-gray-900 transition-colors duration-500"
       id="about"
     >
       <div className="container mx-auto px-4 animate-fade-up">

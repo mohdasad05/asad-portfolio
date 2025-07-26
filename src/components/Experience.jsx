@@ -13,7 +13,7 @@ const Experience = () => {
   ];
 
   return (
-    <section className="scroll-mt-20 py-16 bg-white dark:bg-gray-900" id="experience">
+    <section className="scroll-mt-20 py-12 bg-white dark:bg-gray-900" id="experience">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-extrabold mb-10 text-center text-gray-900 dark:text-white group duration-300">
           <span className="relative inline-block">

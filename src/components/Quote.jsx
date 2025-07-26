@@ -62,7 +62,7 @@ const Quote = () => {
 
   return (
     <motion.div
-      className={`text-white py-12 px-6 text-center w-full rounded-none mt-12 transition-all duration-500 ${bgClass}`}
+      className={`text-white py-12 px-6 text-center w-full rounded-none mt-0 transition-all duration-500 ${bgClass}`}
       whileHover={{ scale: 1.02, boxShadow: '0 10px 30px rgba(0,0,0,0.25)' }}
     >
       <AnimatePresence mode="wait">

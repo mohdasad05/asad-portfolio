@@ -112,7 +112,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="scroll-mt-20 py-16 bg-gray-50 dark:bg-gray-800 transition-colors duration-300"
+      className="scroll-mt-20 py-12 bg-gray-50 dark:bg-gray-800 transition-colors duration-300"
     >
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-extrabold mb-10 text-center text-gray-900 dark:text-white group duration-300">

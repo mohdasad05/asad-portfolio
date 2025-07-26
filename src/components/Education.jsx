@@ -26,7 +26,7 @@ const Education = () => {
 
   return (
     <section
-      className="scroll-mt-20 py-16 bg-gray-50 dark:bg-gray-800 transition-colors duration-500"
+      className="scroll-mt-20 py-12 bg-gray-50 dark:bg-gray-800 transition-colors duration-500"
       id="education"
     >
       <div className="container mx-auto px-4">

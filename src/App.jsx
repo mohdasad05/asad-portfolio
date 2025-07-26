@@ -21,6 +21,7 @@ function App() {
       <Navbar />
       <SectionWrapper delay={0.1}><Hero /></SectionWrapper>
       <SectionWrapper delay={0.15}><About /></SectionWrapper>
+      <Quote />
       <SectionWrapper delay={0.2}><Education /></SectionWrapper>
       <SectionWrapper delay={0.25}><Experience /></SectionWrapper>
       <SectionWrapper delay={0.3}><Skills /></SectionWrapper>
@@ -28,7 +29,7 @@ function App() {
       <SectionWrapper delay={0.4}><Certifications /></SectionWrapper>
       <SectionWrapper delay={0.45}><Achievements /></SectionWrapper>
       <SectionWrapper delay={0.5}><Contact /></SectionWrapper>
-      <Quote />
+      
       <Footer />
     </div>
   );
