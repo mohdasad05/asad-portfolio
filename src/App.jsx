@@ -12,6 +12,7 @@ import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import SectionWrapper from './components/SectionWrapper';
+import Quote from './components/Quote';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <SectionWrapper delay={0.4}><Certifications /></SectionWrapper>
       <SectionWrapper delay={0.45}><Achievements /></SectionWrapper>
       <SectionWrapper delay={0.5}><Contact /></SectionWrapper>
+      <Quote />
       <Footer />
     </div>
   );

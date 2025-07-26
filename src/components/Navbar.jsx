@@ -63,7 +63,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* ✅ Mobile Menu - Separate Container Below Logo */}
+      {/* Mobile Menu - Separate Container Below Logo */}
       <div
         className={`md:hidden fixed top-[64px] left-0 w-full h-[calc(100vh-64px)] bg-gray-900 text-white px-6 py-6 space-y-4 z-40 transform transition-transform duration-300 ${
           menuOpen ? 'translate-y-0' : '-translate-y-full'
@@ -79,12 +79,19 @@ const Navbar = () => {
             {item.label}
           </a>
         ))}
+
         <div className="flex items-center justify-between pt-4 border-t border-gray-700">
-          <DarkModeToggle />
+          {/* Dark Mode Toggle Button with close */}
+          <button onClick={() => setMenuOpen(false)}>
+            <DarkModeToggle />
+          </button>
+
+          {/* Resume Button with close */}
           <a
             href="/Mohammad-Asad-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => setMenuOpen(false)} // Add this
             className="inline-flex items-center bg-teal-500 hover:bg-teal-600 text-white px-3 py-1 rounded text-sm"
           >
             <i className="fas fa-file-alt mr-2"></i> Resume
