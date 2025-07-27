@@ -170,10 +170,23 @@ const Quote = () => {
   const q = filteredQuotes[current];
 
   return (
+    <section
+    className="scroll-mt-20 py-0 bg-white dark:bg-gray-900 transition-colors duration-500"
+    id="quotes"
+  >
+    {/* Heading */}
+    <h2 className="text-4xl font-extrabold mb-10 text-center text-gray-900 dark:text-white group duration-300 pt-12">
+      <span className="relative inline-block">
+        Quote of the Day
+        <span className="absolute left-0 -bottom-2 h-1 w-0 bg-teal-500 dark:bg-teal-400 transition-all duration-300 group-hover:w-full"></span>
+      </span>
+    </h2>
+
+    {/* Full-width Gradient Quote Box */}
     <motion.div
-      className={`text-white py-12 px-6 text-center w-full rounded-none mt-12 transition-all duration-500 ${bgClass}`}
+      className={`text-white py-12 text-center w-full transition-all duration-500 ${bgClass}`}
     >
-      {/* Author Filter Dropdown */}
+      {/* Author Dropdown */}
       <div className="mb-6">
         <select
           className="bg-white/10 hover:bg-white/20 text-white text-sm py-2 px-4 rounded-lg transition duration-300 outline-none focus:outline-none focus:ring-0"
@@ -188,6 +201,7 @@ const Quote = () => {
         </select>
       </div>
 
+      {/* Quote + Buttons */}
       <AnimatePresence mode="wait">
         {q && (
           <motion.div
@@ -234,6 +248,7 @@ const Quote = () => {
         )}
       </AnimatePresence>
     </motion.div>
+  </section>
   );
 };
 

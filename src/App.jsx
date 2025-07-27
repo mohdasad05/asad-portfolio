@@ -28,9 +28,7 @@ function App() {
       <SectionWrapper delay={0.4}><Certifications /></SectionWrapper>
       <SectionWrapper delay={0.45}><Achievements /></SectionWrapper>
       <SectionWrapper delay={0.5}><Contact /></SectionWrapper>
-      <div id="quotes" className="mt-0">
-        <Quote />
-      </div>
+      <Quote />  
       <Footer />
     </div>
   );
