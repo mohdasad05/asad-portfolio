@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
+import Quote from './Quote'; // adjust path if needed
 
 const Hero = () => {
   return (
@@ -116,8 +117,8 @@ const Hero = () => {
             Lucknow, Uttar Pradesh, India
           </div>
 
-          {/* View My Work Button */}
-          <div className="mt-6 flex justify-center md:justify-start">
+          {/* Combined Buttons: View My Work + Visitor Badge + Explore Quotes */}
+          <div className="mt-6 flex flex-wrap items-center justify-center md:justify-start gap-4">
             <a
               href="#projects"
               className="inline-flex items-center bg-teal-500 text-white px-5 py-2 rounded-lg hover:bg-teal-600 hover:scale-105 transform transition duration-300 shadow-md"
@@ -125,16 +126,22 @@ const Hero = () => {
               <i className="fas fa-briefcase mr-2"></i>
               View My Work
             </a>
-          </div>
 
-          {/* Visitor Counter Badge */}
-          <div className="mt-6 text-center md:text-left">
+            <a
+              href="#quotes"
+              className="inline-flex items-center bg-purple-500 text-white px-5 py-2 rounded-lg hover:bg-purple-600 hover:scale-105 transform transition duration-300 shadow-md"
+            >
+              <i className="fas fa-quote-left mr-2"></i>
+              Dev Motivation
+            </a>
+
             <img
               src="https://api.visitorbadge.io/api/visitors?path=mohdasad05/asadfolio&label=Total Visitors&labelColor=52525b&countColor=22d3ee&style=flat-square"
               alt="Visitor Badge"
-              className="w-auto h-8 inline-block transform transition duration-300 hover:scale-105 hover:shadow-md cursor-default"
+              className="h-8 transform transition duration-300 hover:scale-105 hover:shadow-md cursor-default"
             />
           </div>
+
         </div>
       </div>
     </section>
