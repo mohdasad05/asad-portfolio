@@ -207,7 +207,7 @@ const Projects = () => {
                   onClick={() => window.open(selectedProject.image, '_blank')}
                 />
               </div>
-              <h3 className="text-2xl font-bold mb-2 dark:text-white hover:text-teal-600 transition-colors duration-200">
+              <h3 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-200">
                 {selectedProject.title}
               </h3>
               <p className="text-gray-700 dark:text-gray-300 mb-4 whitespace-pre-line">
