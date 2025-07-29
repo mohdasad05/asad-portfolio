@@ -147,8 +147,8 @@ const Projects = () => {
               className={`px-4 py-2 rounded-full text-sm font-semibold border transition-all duration-300 ease-in-out
                 ${
                   activeCategory === category
-                    ? 'bg-teal-600 text-white'
-                    : 'bg-gray-200 dark:bg-gray-700 dark:text-white hover:bg-teal-100 dark:hover:bg-gray-600 hover:text-teal-700'
+                    ? 'bg-teal-600 text-white dark:bg-teal-500'
+                    : 'bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-white hover:bg-teal-100 hover:text-teal-700 dark:hover:bg-teal-100 dark:hover:text-teal-400'
                 }`}
               onClick={() => setActiveCategory(category)}
             >
