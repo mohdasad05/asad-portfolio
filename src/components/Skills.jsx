@@ -9,7 +9,7 @@ import {
 import { VscCode } from 'react-icons/vsc';
 
 const pill =
-  'flex items-center gap-2 px-4 py-2 mr-4 rounded-full bg-white dark:bg-gray-900 shadow text-gray-800 dark:text-gray-100 text-base md:text-lg font-medium transition-all duration-300 transform hover:scale-105 hover:bg-teal-500 hover:text-white dark:hover:text-white';
+  'flex items-center gap-2 px-4 py-2 mr-4 rounded-full bg-white dark:bg-gray-900 shadow text-gray-800 dark:text-gray-100 text-base md:text-lg font-medium transition-all duration-300 transform hover:scale-105 hover:bg-teal-500 dark:hover:bg-teal-600 hover:text-white';
 
 const Row = ({ items, reverse = false, speed = 'normal' }) => {
   const anim =

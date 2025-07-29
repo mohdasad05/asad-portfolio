@@ -173,7 +173,7 @@ const Projects = () => {
                 className="w-full h-48 object-cover rounded transition-transform duration-300 ease-in-out hover:scale-105"
                 loading="lazy"
               />
-              <h3 className="text-lg font-semibold mt-4 text-gray-900 dark:text-white hover:text-teal-600 transition-colors duration-200">
+              <h3 className="text-lg font-semibold mt-4 text-gray-900 dark:text-white hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-200">
                 {project.title}
               </h3>
               <p className="text-sm text-gray-600 dark:text-gray-300 mt-1 line-clamp-2">
