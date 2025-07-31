@@ -16,7 +16,7 @@ const About = () => {
         </h2>
         <div className="text-gray-700 dark:text-gray-300 max-w-3xl mx-auto text-center text-[17px] leading-relaxed hover:scale-[1.01] transition-transform duration-300 space-y-6">
           <p>
-            I'm a Computer Science graduate specializing in Artificial Intelligence & Machine Learning, currently working as a Python/Django Developer Intern at <strong>WeSalvator</strong>. I’ve worked on building real-time, scalable, and secure backend systems using modern development practices.
+            I'm a Computer Science graduate specializing in Artificial Intelligence & Machine Learning, currently working as a Python/Django Developer at <strong>WeSalvator</strong>. I’ve worked on building real-time, scalable, and secure backend systems using modern development practices.
           </p>
           <p>
             My core skills include backend development with <strong>Django</strong> and <strong>FastAPI</strong>, real-time features using <strong>WebSockets</strong> and <strong>Django Channels</strong>, API security with <strong>JWT</strong>, and microservices architecture. I’ve also used <strong>Docker</strong> for containerization, <strong>.env configs</strong> for environment management, and integrated <strong>Redis</strong> for async tasks, OTP storage, and real-time updates. I’ve implemented live volunteer tracking using <strong>LeafletJS</strong> for map rendering and driving-route visualization.

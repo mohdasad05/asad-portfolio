@@ -4,7 +4,7 @@ import { Briefcase } from 'lucide-react';
 
 const Experience = () => {
   const experiences = [
-    { role: 'Python/Django Intern', company: 'WeSalvator', duration: 'Nov 2024 – Present' },
+    { role: 'Python/Django Developer', company: 'WeSalvator', duration: 'Nov 2024 – Present' },
     { role: 'Artificial Intelligence Intern', company: 'Tech-A-Intern', duration: 'Mar 2024 – Apr 2024' },
     { role: 'Machine Learning Intern', company: 'BharatIntern', duration: 'Feb 2024 – Mar 2024' },
     { role: 'Python Programming Intern', company: 'CodSoft', duration: 'Oct 2023 – Nov 2023' },
