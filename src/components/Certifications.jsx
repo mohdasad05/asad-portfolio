@@ -3,7 +3,7 @@ import React from 'react';
 import { FaFilePdf } from 'react-icons/fa';
 
 const certifications = [
-  { name: 'Python Django 101 – Simplilearn', file: '/certificates/python-django-simplilearn.pdf' },
+  { name: 'Python Django Fundamentals – Simplilearn', file: '/certificates/python-django-simplilearn.pdf' },
   { name: 'Tableau – Internshala Trainings', file: '/certificates/tableau-internshala.pdf' },
   { name: 'Artificial Intelligence Intern – Tech-A-Intern', file: '/certificates/ai-tech-a-intern.pdf' },
   { name: 'Data Science – Internshala Trainings', file: '/certificates/data-science-internshala.pdf' },
