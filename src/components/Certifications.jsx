@@ -3,18 +3,21 @@ import React from 'react';
 import { FaFilePdf } from 'react-icons/fa';
 
 const certifications = [
-  { name: 'Tableau – Internshala Trainings', file: '/certificates/tableau-certificate.pdf' },
-  { name: 'Artificial Intelligence Intern – Tech-A-Intern', file: '/certificates/ai-intern-certificate.pdf' },
-  { name: 'Data Science – Internshala Trainings', file: '/certificates/data-science-certificate.pdf' },
-  { name: 'Machine Learning Intern – BharatIntern', file: '/certificates/ml-intern-bharatintern.pdf' },
+  { name: 'Python Django 101 – Simplilearn', file: '/certificates/python-django-simplilearn.pdf' },
+  { name: 'Tableau – Internshala Trainings', file: '/certificates/tableau-internshala.pdf' },
+  { name: 'Artificial Intelligence Intern – Tech-A-Intern', file: '/certificates/ai-tech-a-intern.pdf' },
+  { name: 'Data Science – Internshala Trainings', file: '/certificates/data-science-internshala.pdf' },
+  { name: 'Machine Learning Intern – BharatIntern', file: '/certificates/ml-bharatintern.pdf' },
   { name: 'Machine Learning – Internshala Trainings', file: '/certificates/ml-internshala.pdf' },
   { name: 'Python Programming Intern - CodSoft', file: '/certificates/python-codsoft.pdf' },
-  { name: '2 Days Pre Bootcamp Workshop - GUVI', file: '/certificates/guvi-bootcamp.pdf' },
-  { name: 'Enterprise Data Science – IBM', file: '/certificates/ibm-data-science.pdf' },
+  { name: 'Programming with Python – Internshala Trainings', file: '/certificates/python-internshala.pdf' },
   { name: 'Web Development Intern – CodeClause', file: '/certificates/web-dev-codeclause.pdf' },
   { name: 'Web Development - Internshala Trainings', file: '/certificates/web-dev-internshala.pdf' },
   { name: 'ChatGPT Guided Path - Coding Ninjas', file: '/certificates/chatgpt-coding-ninjas.pdf' },
   { name: 'Data Analytics Internship - Forage', file: '/certificates/data-analytics-forage.pdf' },
+  { name: 'Robotic Arm Project Completion Certificate - B.Tech AIML 3rd Sem', file: '/certificates/robotic-arm.pdf'},
+  { name: 'Enterprise Data Science – IBM', file: '/certificates/ibm-data-science.pdf' },
+  { name: '2 Days Pre Bootcamp Workshop - GUVI', file: '/certificates/guvi-bootcamp.pdf' },
 ];
 
 const Certifications = () => {

@@ -119,11 +119,20 @@ const projectData = [
     image: '/projects/voice-assistant.jpg',
     code: '',
   },
+  {
+    title: 'Robotic Arm',
+    category: 'AI-ML',
+    description: `A group AI project completed as part of B.Tech AIML 3rd Sem. The project involves designing and programming a robotic arm with intelligent control mechanisms.`,
+    image: '/projects/robotic-arm.jpg',
+    video: '/projects/robotic-arm-demo.mp4',
+    code: '',
+  },
 ];
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState('All');
   const [selectedProject, setSelectedProject] = useState(null);
+  const [showVideo, setShowVideo] = useState(false);
 
   const categories = ['All', 'Python', 'AI-ML', 'Web'];
   const filteredProjects = activeCategory === 'All'
@@ -162,7 +171,10 @@ const Projects = () => {
             <motion.div
               key={index}
               className="bg-white dark:bg-gray-800 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-md hover:shadow-2xl transform hover:scale-[1.05] hover:-translate-y-2 hover:bg-teal-50 dark:hover:bg-gray-700 transition-all duration-300 ease-in-out cursor-pointer"
-              onClick={() => setSelectedProject(project)}
+              onClick={() => {
+                setSelectedProject(project);
+                setShowVideo(false); // reset video player on new project open
+              }}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.05 }}
@@ -186,7 +198,10 @@ const Projects = () => {
         {selectedProject && (
           <div
             className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
-            onClick={() => setSelectedProject(null)}
+            onClick={() => {
+              setSelectedProject(null);
+              setShowVideo(false);
+            }}
           >
             <div
               className="bg-white dark:bg-gray-900 rounded-lg p-6 max-w-lg w-full relative"
@@ -194,47 +209,79 @@ const Projects = () => {
             >
               <button
                 className="absolute top-2 right-2 text-gray-700 dark:text-white text-xl"
-                onClick={() => setSelectedProject(null)}
+                onClick={() => {
+                  setSelectedProject(null);
+                  setShowVideo(false);
+                }}
               >
                 &times;
               </button>
-              <div className="overflow-hidden rounded mb-4">
-                <motion.img
-                  src={selectedProject.image}
-                  alt={selectedProject.title}
-                  className="w-full h-64 object-cover rounded cursor-zoom-in transition-transform duration-300"
-                  whileHover={{ scale: 1.1 }}
-                  onClick={() => window.open(selectedProject.image, '_blank')}
-                />
-              </div>
-              <h3 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-200">
-                {selectedProject.title}
-              </h3>
-              <p className="text-gray-700 dark:text-gray-300 mb-4 whitespace-pre-line">
-                {selectedProject.description}
-              </p>
-              <div className="flex gap-4">
-                {selectedProject.live && (
-                  <a
-                    href={selectedProject.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white px-4 py-2 rounded transition duration-200 ease-in-out"
+
+              {!showVideo ? (
+                <>
+                  <div className="overflow-hidden rounded mb-4">
+                    <motion.img
+                      src={selectedProject.image}
+                      alt={selectedProject.title}
+                      className="w-full h-64 object-cover rounded cursor-zoom-in transition-transform duration-300"
+                      whileHover={{ scale: 1.1 }}
+                      onClick={() => window.open(selectedProject.image, '_blank')}
+                    />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-200">
+                    {selectedProject.title}
+                  </h3>
+                  <p className="text-gray-700 dark:text-gray-300 mb-4 whitespace-pre-line">
+                    {selectedProject.description}
+                  </p>
+                  <div className="flex gap-4 flex-wrap">
+                    {selectedProject.live && (
+                      <a
+                        href={selectedProject.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white px-4 py-2 rounded transition duration-200 ease-in-out"
+                      >
+                        <ExternalLink size={18} /> View Live
+                      </a>
+                    )}
+                    {selectedProject.code && (
+                      <a
+                        href={selectedProject.code}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white px-4 py-2 rounded transition duration-200 ease-in-out"
+                      >
+                        <Github size={18} /> View Code
+                      </a>
+                    )}
+                    {selectedProject.video && (
+                      <button
+                        onClick={() => setShowVideo(true)}
+                        className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white px-4 py-2 rounded transition duration-200 ease-in-out"
+                      >
+                        ▶ View Demo
+                      </button>
+                    )}
+                  </div>
+                </>
+              ) : (
+                <div className="mb-4">
+                  <video
+                    src={selectedProject.video}
+                    controls
+                    autoPlay
+                    className="w-full max-h-[60vh] rounded"
+                    onEnded={() => setShowVideo(false)}
+                  />
+                  <button
+                    onClick={() => setShowVideo(false)}
+                    className="mt-4 px-4 py-2 bg-red-600 hover:bg-red-500 text-white rounded"
                   >
-                    <ExternalLink size={18} /> View Live
-                  </a>
-                )}
-                {selectedProject.code && (
-                  <a
-                    href={selectedProject.code}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white px-4 py-2 rounded transition duration-200 ease-in-out"
-                  >
-                    <Github size={18} /> View Code
-                  </a>
-                )}
-              </div>
+                    ✕ Close Video
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         )}
