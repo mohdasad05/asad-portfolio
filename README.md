@@ -62,6 +62,16 @@ Check out the live version of the site hosted on Vercel:
 
 ---
 
+## 🔑 Environment Variables
+
+To run this project locally, you need to create a `.env` file in the root directory and define the required variables:
+
+```bash
+# .env
+VITE_FORMSPREE_ENDPOINT=your_formspree_endpoint_url
+
+---
+
 ## 🚀 Getting Started Locally
 
 ```bash
