@@ -52,16 +52,6 @@ Check out the live version of the site hosted on Vercel:
 
 ---
 
-## 📫 Contact
-
-- 📍 Location: Lucknow, Uttar Pradesh, India  
-- 📧 Email: [mohdasad.9506@gmail.com](mailto:mohdasad.9506@gmail.com)  
-- 💼 LinkedIn: [linkedin.com/in/mohammad-asad-631647277](https://linkedin.com/in/mohammad-asad-631647277)  
-- 💻 GitHub: [github.com/mohdasad05](https://github.com/mohdasad05)  
-- ▶️ YouTube: [youtube.com/@mohdasad_05](https://youtube.com/@mohdasad_05)
-
----
-
 ## 🔑 Environment Variables
 
 To run this project locally, you need to create a `.env` file in the root directory and define the required variables:
@@ -69,6 +59,16 @@ To run this project locally, you need to create a `.env` file in the root direct
 ```bash
 # .env
 VITE_FORMSPREE_ENDPOINT=your_formspree_endpoint_url
+
+---
+
+## 📫 Contact
+
+- 📍 Location: Lucknow, Uttar Pradesh, India  
+- 📧 Email: [mohdasad.9506@gmail.com](mailto:mohdasad.9506@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/mohammad-asad-631647277](https://linkedin.com/in/mohammad-asad-631647277)  
+- 💻 GitHub: [github.com/mohdasad05](https://github.com/mohdasad05)  
+- ▶️ YouTube: [youtube.com/@mohdasad_05](https://youtube.com/@mohdasad_05)
 
 ---
 
