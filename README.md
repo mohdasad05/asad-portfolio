@@ -61,7 +61,7 @@ VITE_FORMSPREE_ENDPOINT=your_formspree_endpoint_here
 
 Note: For production deployment on Vercel, add this variable in your project settings under "Environment Variables".
 
-📫 Contact
+## 📫 Contact
 📍 Location: Lucknow, Uttar Pradesh, India
 
 📧 Email: mohdasad.9506@gmail.com
