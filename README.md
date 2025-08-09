@@ -54,31 +54,29 @@ Check out the live version of the site hosted on Vercel:
 
 ## 🔑 Environment Variables
 
-To run this project locally, you need to create a .env file in the root directory and define the required variables:
+To run this project locally, you need to create a `.env` file in the root directory and define the required variables:
 
 ```bash
 # .env
 VITE_FORMSPREE_ENDPOINT=your_formspree_endpoint_url
-
 ⚠️ Note:
 For production deployment, go to your Vercel dashboard and add this variable under:
 Project → Settings → Environment Variables
 
----
+📫 Contact
+📍 Location: Lucknow, Uttar Pradesh, India
 
-## 📫 Contact
+📧 Email: mohdasad.9506@gmail.com
 
-- 📍 Location: Lucknow, Uttar Pradesh, India  
-- 📧 Email: [mohdasad.9506@gmail.com](mailto:mohdasad.9506@gmail.com)  
-- 💼 LinkedIn: [linkedin.com/in/mohammad-asad-631647277](https://linkedin.com/in/mohammad-asad-631647277)  
-- 💻 GitHub: [github.com/mohdasad05](https://github.com/mohdasad05)  
-- ▶️ YouTube: [youtube.com/@mohdasad_05](https://youtube.com/@mohdasad_05)
+💼 LinkedIn: linkedin.com/in/mohammad-asad-631647277
 
----
+💻 GitHub: github.com/mohdasad05
 
-## 🚀 Getting Started Locally
+▶️ YouTube: youtube.com/@mohdasad_05
 
-```bash
+🚀 Getting Started Locally
+bash
+
 # Clone the repository
 git clone https://github.com/mohdasad05/asad-portfolio.git
 cd asad-portfolio
