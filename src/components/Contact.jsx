@@ -39,7 +39,7 @@ const Contact = () => {
     ${form.message}`
     };
 
-    const res = await fetch("https://formspree.io/f/mnnzjeny", {
+    const res = await fetch(import.meta.env.VITE_FORMSPREE_ENDPOINT, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
