@@ -113,7 +113,7 @@ const Hero = () => {
 
           {/* Location */}
           <div className="mt-4 text-lg text-gray-700 dark:text-gray-300 flex items-center justify-center md:justify-start">
-            <i className="fas fa-map-marker-alt mr-2 text-teal-500"></i>
+            <i className="fas fa-map-marker-alt mr-2 text-teal-500 text-xl"></i>
             Lucknow, Uttar Pradesh, India
           </div>
 
