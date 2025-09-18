@@ -5,6 +5,7 @@ import { FaFilePdf } from 'react-icons/fa';
 const certifications = [
   { name: 'Oracle Cloud Infrastructure 2025 Certified Developer Professional', file: '/certificates/oracle-cloud-2025.pdf' },
   { name: 'Python Django Fundamentals – Simplilearn', file: '/certificates/python-django-simplilearn.pdf' },
+  { name: 'React with AI - Internshala Trainings', file: '/certificates/react-ai-internshala.pdf' },
   { name: 'Git & GitHub - Internshala Trainings', file: '/certificates/git-github-internshala.pdf' },
   { name: 'Tableau – Internshala Trainings', file: '/certificates/tableau-internshala.pdf' },
   { name: 'Artificial Intelligence Intern – Tech-A-Intern', file: '/certificates/ai-tech-a-intern.pdf' },
