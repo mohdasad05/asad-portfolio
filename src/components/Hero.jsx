@@ -64,7 +64,7 @@ const Hero = () => {
 
           <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
             Passionate developer with 1+ years of hands-on experience in building robust applications.
-            Currently working at WeSalvator, focusing on Python/Django development while exploring AI/ML
+            Previously worked at WeSalvator, contributing to Python/Django development while exploring AI/ML
             and Data Science.
           </p>
 

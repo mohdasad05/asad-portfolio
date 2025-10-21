@@ -12,6 +12,44 @@ const Achievements = () => {
           </span>           
         </h2>
 
+        {/* 🎓 WeSalvator Experience Achievement */}
+        <div className="relative bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md border dark:border-gray-700 transition-all duration-300 transform hover:scale-[1.01] hover:shadow-xl hover:bg-teal-50 dark:hover:bg-gray-700 mb-8">
+          <div className="absolute top-4 right-4 bg-yellow-400 text-white p-2 rounded-full shadow-lg animate-floating">
+            <FaMedal size={22} />
+          </div>
+
+          <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+            Backend Developer (Python & Django) – WeSalvator (Nov 2024 – Oct 2025)
+          </h3>
+
+          <p className="text-gray-700 dark:text-gray-300 mb-4">
+            Successfully completed 1 – year as a <strong>Python/Django Developer</strong> at <strong>WeSalvator</strong>, 
+            a real-time animal rescue and volunteer coordination platform. My key contributions included:
+          </p>
+
+          <ul className="list-disc pl-6 space-y-1 text-gray-700 dark:text-gray-300 mb-4">
+            <li>Developed scalable RESTful APIs using Django and Django REST Framework.</li>
+            <li>Integrated and optimized PostgreSQL databases for better performance.</li>
+            <li>Implemented secure authentication and role-based access systems using JWT.</li>
+            <li>Worked on microservices architecture migration and backend optimization.</li>
+            <li>Collaborated with frontend and DevOps teams for smooth deployment and functionality.</li>
+            <li>Delivered efficient, real-time backend systems with high reliability.</li>
+          </ul>
+
+          <p className="text-gray-700 dark:text-gray-300 mb-4">
+            Demonstrated strong technical expertise, problem-solving ability, teamwork, and commitment to quality throughout the journey.
+          </p>
+
+          <a
+            href="/achievements/wesalvator-experience.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center text-teal-600 dark:text-teal-400 font-semibold hover:underline"
+          >
+            <FaFilePdf className="mr-2" /> View Experience Certificate
+          </a>
+        </div>
+
         {/* 🏆 Oracle Badge Achievement - TOP */}
         <div className="relative bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md border dark:border-gray-700 transition-all duration-300 transform hover:scale-[1.01] hover:shadow-xl hover:bg-teal-50 dark:hover:bg-gray-700 mb-8">
           <div className="absolute top-4 right-4 bg-yellow-500 text-white p-2 rounded-full shadow-lg animate-floating">
@@ -48,7 +86,7 @@ const Achievements = () => {
           </h3>
 
           <p className="text-gray-700 dark:text-gray-300 mb-4">
-            During my internship at CodeClause, I was recognized for my outstanding performance and dedication.
+            During my internship at <strong>CodeClause</strong>, I was recognized for my outstanding performance and dedication.
             My creative approach and adherence to best practices were highly appreciated.
           </p>
 

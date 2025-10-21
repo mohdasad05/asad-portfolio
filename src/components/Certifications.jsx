@@ -3,6 +3,7 @@ import React from 'react';
 import { FaFilePdf } from 'react-icons/fa';
 
 const certifications = [
+  { name: 'Backend Developer (Python & Django) – WeSalvator', file: '/certificates/wesalvator-completion.pdf' },
   { name: 'Oracle Cloud Infrastructure 2025 Certified Developer Professional', file: '/certificates/oracle-cloud-2025.pdf' },
   { name: 'Python Django Fundamentals – Simplilearn', file: '/certificates/python-django-simplilearn.pdf' },
   { name: 'React with AI - Internshala Trainings', file: '/certificates/react-ai-internshala.pdf' },
